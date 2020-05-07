@@ -1,0 +1,18 @@
+# Snowstorm-Classification
+Snowstorm Classification using Machine Learning
+
+Description:  The purpose of this project will be to classify snowstorms into a scale, similar to the scales used to classify tornadoes and hurricanes.  Currently, the only classification available for snowstorms is a binary option indicating if the parameters were met to categorize it as a blizzard.  Classification may reveal patterns that were previously unclear and allow weather professionals to adequately and accurately inform the public of potential dangers associated with the snowstorms.
+
+Data Science Task:  The scale will be created utilizing classification using unsupervised learning algorithms.  This appears to be an appropriate technique due to the lack of any current rating system for snow storms.
+
+Data:  Data is available through the National Oceanic and Atmospheric Administration’s National Centers for Environmental Information’s Storm Events Database and Snowstorm Database.  The Storm Events Database is a large dataset that will require filtering for the snowstorm data only.  The Snowstorm Database is a smaller dataset that contains approximately 500 storms since 1900.  Collection will be simple, as both databases are available for public download.  The available data should be a large enough dataset to properly classify snowstorms.
+
+Data Analysis:  To develop the classification scale for the snowstorms, numerous unsupervised learning algorithms will be tested for accuracy.  Hierarchical clustering and k-means will be a good starting point for analysis.  Additional algorithms will be tested based on the performance of these first two algorithms.
+
+Anticipated Difficulties:  Data preparation and cleaning appear to be the largest tasks in this project but will likely not pose any problems.  A potential difficulty may be in cleanly and clearly defining the groupings for the scale.  It may be possible to mitigate this issue with narrowing the classification attributes to only those that will have a statistically significant effect on the overall classification.
+
+Timeline:
+	Weeks 1-2:  Defining/researching problem, obtaining approval
+	Weeks 3-4:  Obtaining and cleaning/preparing data
+	Weeks 5-7:  Data analysis, best algorithm choice
+	Week 8:  Presentation Preparation
