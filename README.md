@@ -14,6 +14,7 @@ The Storm Events Database main page can be found here: https://www.ncdc.noaa.gov
 Columns that were not related to the scope of the project, contained all N/A's, or not necessary for the algorithm were removed (see Storms Events DS Column Removal document for more information).  Additionally, string and character values were converted to numeric values.  The Storm Events DS Cleanup R file was used to merge the files, remove columns, and convert values to numeric.
 
 The summary function was used on the cleaned Storm Event dataset data to view basic information.
-![StormEventDSSummary](link-to-image)
+![StormEventDSSummary](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/StormEventsDSSummary.PNG)
+
 All numeric values were plotted to see the variation in the fields.
 ![StormEventDSNumericValues](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/StormEventsDSNumericValues.PNG)
