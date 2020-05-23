@@ -11,4 +11,4 @@ The Storm Events Database main page can be found here: https://www.ncdc.noaa.gov
 
 **Data Cleanup:** The Storm Events Database required merging all of the files together into a single dataset.  A subset of this dataset was created to include only EVENT_TYPE of: Blizzard, Frost/Freeze, Heavy Snow, Ice Storm, Lake-Effect Snow, Sleet, Winter Storm, and Winter Weather.  The new subset consisted of 238,782 rows of data.  
 
-Columns that were not related to the scope of the project, contained all N/A's, or not necessary for the algorithm were removed (see Storms Events DS Column Removal document for more information).  Additionally, string and character values were converted to numeric values.
+Columns that were not related to the scope of the project, contained all N/A's, or not necessary for the algorithm were removed (see Storms Events DS Column Removal document for more information).  Additionally, string and character values were converted to numeric values.  The Storm Events DS Cleanup R file was used to merge the files, remove columns, and convert values to numeric.
