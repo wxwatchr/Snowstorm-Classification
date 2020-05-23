@@ -16,4 +16,4 @@ Columns that were not related to the scope of the project, contained all N/A's, 
 The summary function was used on the cleaned Storm Event dataset data to view basic information.
 ![StormEventDSSummary](link-to-image)
 All numeric values were plotted to see the variation in the fields.
-![StormEventDSNumericValues](link-to-image)
+![StormEventDSNumericValues](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/StormEventsDSNumericValues.PNG)
