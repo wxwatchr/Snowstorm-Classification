@@ -1,0 +1,8 @@
+Name: City name for observation. Not within the scope of this project
+State: State of observation. Included in first dataset.
+Elevation: Elevation of the observation station.  Not within the scope of this project.
+Snowfall: Total snowfall by observation location.  Not within the scope of this project.
+Lat: Latitude of observation station.  Not useful for this project.
+Lon: Longitude of observation station.  Not useful for this project.
+GHCND_ID: Station ID.  Not useful for this project.
+STORM_ID: Storm start date and end date concatenated.  Not useful for this project.
