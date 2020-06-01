@@ -2,7 +2,7 @@ The following columns were removed from the dataset and not included in algorith
 
 state_fips:  State Federal Information Processing Standard number.  Not useful for algorithmic analysis.
 cz_fips: County/Zone Federal Information Processing Standard number.  Not useful for algorithmic analysis.
-cz_name: County/Zone name.  Algorithm will be using longitude and latitude from additional dataset.
+cz_name: County/Zone name.  Not within the scope of this project.
 source: Source of the weather report.  Validity is assumed through the National Weather Service vetting of weather reporting.  Not useful for algorithmic analysis.
 flood_cause: Reported or estimated cause of flood.  Not within the scope of this project.
 category: No data included in this field (100% N/A’s).
@@ -13,11 +13,11 @@ tor_other_wfo: Additional Weather Forecast Office coverage area if tornado conti
 tor_other_cz_state: Additional State (abbreviation) if tornado crossed state lines.  Not within the scope of this project.
 tor_other_cz_fips:  Additional County/Zone FIPS code if tornado crossed County/Zone lines.  Not within the scope of this project.
 tor_other_cz_name:  Additional County/Zone name if tornado crossed County/Zone lines.  Not Within the scope of this project.
-begin_azimuth: 16-point compass direction from the center of the geographic location of the event beginning point.  Longitude and Latitude will be used for location data.
-end_azimuth: 16-point compass direction from the center of the geographic location of the event end point.  Longitude and Latitude will be used for location data.
+begin_azimuth: 16-point compass direction from the center of the geographic location of the event beginning point.  Not within the scope of this project.
+end_azimuth: 16-point compass direction from the center of the geographic location of the event end point.  Not within the scope of this project.
 data_source: Source of the data.  Not useful in algorithm analysis.
-begin_range: Range to center of geographical center of the location of the beginning of the storm event.  Longitude and Latitude will be used for location data.
-end_range: Range to center of geographical center of the location of the end of the storm event.  Longitude and Latitude will be used for location data.
+begin_range: Range to center of geographical center of the location of the beginning of the storm event.  Not within the scope of this project.
+end_range: Range to center of geographical center of the location of the end of the storm event.  Not within the scope of this project.
 episode_narrative: Text-based analysis of the storm event episode.  Not within the scope of this project.
 event_narrative: Text-based analysis of the storm events.  Not within the scope of this project.
 magnitude:  99.95% of values in this field are N/A.
