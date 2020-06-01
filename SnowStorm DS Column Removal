@@ -1,3 +1,5 @@
+The following columns were removed from the dataset and not included in algorithm analysis.
+
 Name: City name for observation. Not within the scope of this project
 State: State of observation. Included in first dataset.
 Elevation: Elevation of the observation station.  Not within the scope of this project.
