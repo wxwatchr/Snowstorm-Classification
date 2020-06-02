@@ -9,6 +9,8 @@ Snowstorm Classification using Machine Learning
 
 The Storm Events Database main page can be found here: https://www.ncdc.noaa.gov/stormevents/.  The dataset used in this project is the "StormEvents_details" including the years 1950 through the first four months of April.  These files can be found here https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/.  The files were downloaded, uncompressed using 7zip, and saved in a single location so that they could be appended in R.
 
+The SnowStorm Database main page can be found here:  https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00464.  The files can be downloaded here:  https://www.ncei.noaa.gov/data/snowstorm-database/archive/.  Each of the files were downloaded, uncompressed using 7zip, and converted to a csv using MyGeoData: https://mygeodata.cloud/.  Additionally, only the highest snowfall total from each day of the storm was used in the calculations.
+
 **Data Cleanup:** The Storm Events Database required merging all of the files together into a single dataset.  A subset of this dataset was created to include only EVENT_TYPE of: Blizzard, Frost/Freeze, Heavy Snow, Ice Storm, Lake-Effect Snow, Sleet, Winter Storm, and Winter Weather.  The new subset consisted of 238,782 rows of data.  
 
 Columns that were not related to the scope of the project, contained all N/A's, or not necessary for the algorithm were removed (see Storms Events DS Column Removal document for more information).  Additionally, string and character values were converted to numeric values.  The Storm Events DS Cleanup R file was used to merge the files, remove columns, and convert values to numeric.
@@ -18,3 +20,7 @@ The summary function was used on the cleaned Storm Event dataset data to view ba
 
 All numeric values were plotted to see the variation in the fields.
 ![StormEventDSNumericValues](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/StormEventsDSNumericValues.PNG)
+
+The SnowStorm Database required merging all of the converted files together into a single dataset.  Columns that were not related to the scope of the project or not necessary for the algorithm were removed (see SnowStorm DS Column Removal for more information).  
+
+Once the clean up was completed on both datasets, the two were merged together based on the start date.
