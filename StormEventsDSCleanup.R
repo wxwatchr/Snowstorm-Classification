@@ -1,11 +1,11 @@
 library(dplyr)
 
-## set working directory (with your path to the data)
-setwd("Path")
+## set working directory
+setwd("D:/Documents/classes/Capstone_Data/")
 
-## obtain filenames and full path to files (with your path to the data)
-filenames <- list.files(path="Path",pattern="*.csv")
-fullpath = file.path("Path", filenames)
+## obtain filenames and full path to files
+filenames <- list.files(path="D:/Documents/classes/Capstone_Data/",pattern="*.csv")
+fullpath = file.path("D:/Documents/classes/Capstone_Data", filenames)
 
 ## create dataset by merging all files in the location
 data <- do.call("rbind",lapply(filenames,FUN=function(files){ read.csv(files)}))
