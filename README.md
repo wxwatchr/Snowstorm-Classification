@@ -23,4 +23,6 @@ All numeric values were plotted to see the variation in the fields.
 
 The SnowStorm Database required merging all of the converted files together into a single dataset.  Columns that were not related to the scope of the project or not necessary for the algorithm were removed (see SnowStorm DS Column Removal for more information).  
 
-Once the clean up was completed on both datasets, the two were merged together based on the start date.
+The start/begin dates were converted to a standardized date pattern.  Once the clean up was completed on both datasets, the two were merged together based on the start/begin date.
+
+Additional exploratory data analysis was completed on the merged data sets.  This can be viewed in the SnowStormEDA.docx file.  The code is in the SnowEDA.r file.  
