@@ -26,3 +26,10 @@ The SnowStorm Database required merging all of the converted files together into
 The start/begin dates were converted to a standardized date pattern.  Once the clean up was completed on both datasets, the two were merged together based on the start/begin date.
 
 Additional exploratory data analysis was completed on the merged data sets.  This can be viewed in the SnowStormEDA.docx file.  The code is in the SnowEDA.r file.  
+
+K-Means was used to group storms into clusters.  The optimal number of clusters was found to be 6.  With the Enhanced Fujita (tornado) scale as a model for this snowstorm scale, this number of clusters will fit the standard.  Classification was found to be 99.6%.  
+![ResultsOne](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/ResultsOne.png)
+![ResultsTwo](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/ResultsTwo.png)
+
+The silhouette method was used to visualize the groupings.
+![SnowSilhouetteMethod](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/SnowSilhouette.PNG)
