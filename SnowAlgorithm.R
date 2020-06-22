@@ -60,7 +60,7 @@ snow_training <- snow[ind==1,2:21]
 snow_test <- snow[ind==2,2:21]
 
 ## apply k-means algorithm with 6 clusters (6 chosen to match current weather scales - 99.6%)
-scale_index <- kmeans(snow[,2:21], 6)
+scale_index <- kmeans(snow[,2:21], 4)
 
 ## create column with the scale_index
 snow$scale_index <- as.factor(scale_index$cluster)
