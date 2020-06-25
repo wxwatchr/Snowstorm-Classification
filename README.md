@@ -25,11 +25,15 @@ The SnowStorm Database required merging all of the converted files together into
 
 The start/begin dates were converted to a standardized date pattern.  Once the clean up was completed on both datasets, the two were merged together based on the start/begin date.
 
-Additional exploratory data analysis was completed on the merged data sets.  This can be viewed in the SnowStormEDA.docx file.  The code is in the SnowEDA.r file.  
+**Exploratory Data Analysis:** Additional exploratory data analysis was completed on the merged data sets.  This can be viewed in the SnowStormEDA.docx file.  The code is in the SnowEDA.r file.  
 
-K-Means was used to group storms into clusters.  The optimal number of clusters was found to be 4.  With the Enhanced Fujita (tornado) scale as a model for this snowstorm scale, this number of clusters will fit the standard.  Classification was found to be 99.5%.  
+**Algorithm Analysis:** K-Means was used to group storms into clusters.  The optimal number of clusters was found to be 4.  With the Enhanced Fujita (tornado) scale as a model for this snowstorm scale, this number of clusters will fit the standard.  Classification was found to be 99.5%.  
 ![ResultsOne](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/analysis4.PNG)
 ![ResultsTwo](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/analysis4_2.PNG)
 
 The silhouette method was used to visualize the groupings.
 ![SnowSilhouetteMethod](https://github.com/wxwatchr/Snowstorm-Classification/blob/master/Graphics/silhouette4.PNG)
+
+**Conclusions:** K-Means clustering was an appropriate algorithm to create a scale for winter storms.  The first of the four categories contained a low number of storms.  This is likely due to human error in recording.  The smallest storms would not be recorded as true winter weather events.  Categories two and three contain the bulk of the storms that make up the average.  The fourth category also contains a small amount of storms.  This is similar to the Enhanced Fujita Scale's EF5 category and the Saffir-Simpson Scale's Category 5, most storms will not reach this level of intensity.
+
+The scale for winter weather events allows media to present a storm's potential without the hype of the recent "Snowmaggedon" and "Snowpocalypse" namings.
